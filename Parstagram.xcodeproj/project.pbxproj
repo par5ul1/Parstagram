@@ -3,18 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B4A23ACC2E40F8986213FCD /* Pods_ParstagramTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36DF0DEE2A73AFCDDD532ECB /* Pods_ParstagramTests.framework */; };
+		CE2967727B920A75724FF0FB /* Pods_Parstagram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91381D9D0BDA1D93F3566B9 /* Pods_Parstagram.framework */; };
 		D784C2C325FC951000AF7FA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C2C225FC951000AF7FA9 /* AppDelegate.swift */; };
 		D784C2C525FC951000AF7FA9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C2C425FC951000AF7FA9 /* SceneDelegate.swift */; };
-		D784C2C725FC951000AF7FA9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C2C625FC951000AF7FA9 /* ViewController.swift */; };
 		D784C2CA25FC951000AF7FA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D784C2C825FC951000AF7FA9 /* Main.storyboard */; };
 		D784C2CC25FC951200AF7FA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D784C2CB25FC951200AF7FA9 /* Assets.xcassets */; };
 		D784C2CF25FC951200AF7FA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D784C2CD25FC951200AF7FA9 /* LaunchScreen.storyboard */; };
 		D784C2DA25FC951200AF7FA9 /* ParstagramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C2D925FC951200AF7FA9 /* ParstagramTests.swift */; };
 		D784C2E525FC951300AF7FA9 /* ParstagramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C2E425FC951300AF7FA9 /* ParstagramUITests.swift */; };
+		D784C30525FC972200AF7FA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C30425FC972200AF7FA9 /* LoginViewController.swift */; };
+		D784C30A25FC972D00AF7FA9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C30925FC972D00AF7FA9 /* FeedViewController.swift */; };
+		D784C30F25FC9D0B00AF7FA9 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C30E25FC9D0B00AF7FA9 /* CameraViewController.swift */; };
+		D784C31C25FCA30100AF7FA9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C31B25FCA30100AF7FA9 /* PostCell.swift */; };
+		F971C3537FE69E1FC7314914 /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA7797855B103FE5768233 /* Pods_Parstagram_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +41,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		186E6EEB1DFED2BAE140F1AF /* Pods-Parstagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.release.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.release.xcconfig"; sourceTree = "<group>"; };
+		1ADA7797855B103FE5768233 /* Pods_Parstagram_ParstagramUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram_ParstagramUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		36DF0DEE2A73AFCDDD532ECB /* Pods_ParstagramTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParstagramTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC4D87A6809805BA10BA59B /* Pods-Parstagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram/Pods-Parstagram.debug.xcconfig"; sourceTree = "<group>"; };
+		591A5B7DBB8D7BFA6C326718 /* Pods-ParstagramTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.debug.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7A4DEE86F3B1B614D4167BCD /* Pods-Parstagram-ParstagramUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.debug.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		950DFAA06ABE671FB08D67A4 /* Pods-ParstagramTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParstagramTests.release.xcconfig"; path = "Target Support Files/Pods-ParstagramTests/Pods-ParstagramTests.release.xcconfig"; sourceTree = "<group>"; };
+		C91381D9D0BDA1D93F3566B9 /* Pods_Parstagram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Parstagram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D784C2BF25FC951000AF7FA9 /* Parstagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Parstagram.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D784C2C225FC951000AF7FA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D784C2C425FC951000AF7FA9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D784C2C625FC951000AF7FA9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D784C2C925FC951000AF7FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D784C2CB25FC951200AF7FA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D784C2CE25FC951200AF7FA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +62,11 @@
 		D784C2E025FC951200AF7FA9 /* ParstagramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParstagramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D784C2E425FC951300AF7FA9 /* ParstagramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParstagramUITests.swift; sourceTree = "<group>"; };
 		D784C2E625FC951300AF7FA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D784C30425FC972200AF7FA9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D784C30925FC972D00AF7FA9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		D784C30E25FC9D0B00AF7FA9 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		D784C31B25FCA30100AF7FA9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		EE68C430B363A59873A12582 /* Pods-Parstagram-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE2967727B920A75724FF0FB /* Pods_Parstagram.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B4A23ACC2E40F8986213FCD /* Pods_ParstagramTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F971C3537FE69E1FC7314914 /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5DD840A799B3826BBEA2F97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3BC4D87A6809805BA10BA59B /* Pods-Parstagram.debug.xcconfig */,
+				186E6EEB1DFED2BAE140F1AF /* Pods-Parstagram.release.xcconfig */,
+				7A4DEE86F3B1B614D4167BCD /* Pods-Parstagram-ParstagramUITests.debug.xcconfig */,
+				EE68C430B363A59873A12582 /* Pods-Parstagram-ParstagramUITests.release.xcconfig */,
+				591A5B7DBB8D7BFA6C326718 /* Pods-ParstagramTests.debug.xcconfig */,
+				950DFAA06ABE671FB08D67A4 /* Pods-ParstagramTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		D784C2B625FC951000AF7FA9 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +117,8 @@
 				D784C2D825FC951200AF7FA9 /* ParstagramTests */,
 				D784C2E325FC951300AF7FA9 /* ParstagramUITests */,
 				D784C2C025FC951000AF7FA9 /* Products */,
+				5DD840A799B3826BBEA2F97A /* Pods */,
+				F8CD76C505B4477A10E4F80D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,8 +137,11 @@
 			children = (
 				D784C2C225FC951000AF7FA9 /* AppDelegate.swift */,
 				D784C2C425FC951000AF7FA9 /* SceneDelegate.swift */,
-				D784C2C625FC951000AF7FA9 /* ViewController.swift */,
 				D784C2C825FC951000AF7FA9 /* Main.storyboard */,
+				D784C31B25FCA30100AF7FA9 /* PostCell.swift */,
+				D784C30E25FC9D0B00AF7FA9 /* CameraViewController.swift */,
+				D784C30425FC972200AF7FA9 /* LoginViewController.swift */,
+				D784C30925FC972D00AF7FA9 /* FeedViewController.swift */,
 				D784C2CB25FC951200AF7FA9 /* Assets.xcassets */,
 				D784C2CD25FC951200AF7FA9 /* LaunchScreen.storyboard */,
 				D784C2D025FC951200AF7FA9 /* Info.plist */,
@@ -128,6 +167,16 @@
 			path = ParstagramUITests;
 			sourceTree = "<group>";
 		};
+		F8CD76C505B4477A10E4F80D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91381D9D0BDA1D93F3566B9 /* Pods_Parstagram.framework */,
+				1ADA7797855B103FE5768233 /* Pods_Parstagram_ParstagramUITests.framework */,
+				36DF0DEE2A73AFCDDD532ECB /* Pods_ParstagramTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D784C2E925FC951300AF7FA9 /* Build configuration list for PBXNativeTarget "Parstagram" */;
 			buildPhases = (
+				F18D3B2FE88A5F2EDC606569 /* [CP] Check Pods Manifest.lock */,
 				D784C2BB25FC951000AF7FA9 /* Sources */,
 				D784C2BC25FC951000AF7FA9 /* Frameworks */,
 				D784C2BD25FC951000AF7FA9 /* Resources */,
+				404045CD5DF0DD179BDC9730 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D784C2EC25FC951300AF7FA9 /* Build configuration list for PBXNativeTarget "ParstagramTests" */;
 			buildPhases = (
+				0BEE0F76618FB284B1AC203D /* [CP] Check Pods Manifest.lock */,
 				D784C2D125FC951200AF7FA9 /* Sources */,
 				D784C2D225FC951200AF7FA9 /* Frameworks */,
 				D784C2D325FC951200AF7FA9 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D784C2EF25FC951300AF7FA9 /* Build configuration list for PBXNativeTarget "ParstagramUITests" */;
 			buildPhases = (
+				E24F50722510D8ECA49078EE /* [CP] Check Pods Manifest.lock */,
 				D784C2DC25FC951200AF7FA9 /* Sources */,
 				D784C2DD25FC951200AF7FA9 /* Frameworks */,
 				D784C2DE25FC951200AF7FA9 /* Resources */,
+				CC3A1E395637D787C2B05521 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,14 +307,120 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0BEE0F76618FB284B1AC203D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParstagramTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		404045CD5DF0DD179BDC9730 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram/Pods-Parstagram-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram/Pods-Parstagram-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parstagram/Pods-Parstagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC3A1E395637D787C2B05521 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E24F50722510D8ECA49078EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parstagram-ParstagramUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F18D3B2FE88A5F2EDC606569 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Parstagram-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D784C2BB25FC951000AF7FA9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D784C2C725FC951000AF7FA9 /* ViewController.swift in Sources */,
+				D784C30525FC972200AF7FA9 /* LoginViewController.swift in Sources */,
+				D784C30F25FC9D0B00AF7FA9 /* CameraViewController.swift in Sources */,
 				D784C2C325FC951000AF7FA9 /* AppDelegate.swift in Sources */,
+				D784C30A25FC972D00AF7FA9 /* FeedViewController.swift in Sources */,
 				D784C2C525FC951000AF7FA9 /* SceneDelegate.swift in Sources */,
+				D784C31C25FCA30100AF7FA9 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		D784C2EA25FC951300AF7FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BC4D87A6809805BA10BA59B /* Pods-Parstagram.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +613,7 @@
 		};
 		D784C2EB25FC951300AF7FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 186E6EEB1DFED2BAE140F1AF /* Pods-Parstagram.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +633,7 @@
 		};
 		D784C2ED25FC951300AF7FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 591A5B7DBB8D7BFA6C326718 /* Pods-ParstagramTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		D784C2EE25FC951300AF7FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950DFAA06ABE671FB08D67A4 /* Pods-ParstagramTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		D784C2F025FC951300AF7FA9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A4DEE86F3B1B614D4167BCD /* Pods-Parstagram-ParstagramUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		D784C2F125FC951300AF7FA9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE68C430B363A59873A12582 /* Pods-Parstagram-ParstagramUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
