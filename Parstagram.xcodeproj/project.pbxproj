@@ -20,6 +20,7 @@
 		D784C30525FC972200AF7FA9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C30425FC972200AF7FA9 /* LoginViewController.swift */; };
 		D784C30A25FC972D00AF7FA9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C30925FC972D00AF7FA9 /* FeedViewController.swift */; };
 		D784C31C25FCA30100AF7FA9 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D784C31B25FCA30100AF7FA9 /* PostCell.swift */; };
+		D7B1024F260559500026BA8C /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7B1024E260559500026BA8C /* CommentCell.swift */; };
 		F971C3537FE69E1FC7314914 /* Pods_Parstagram_ParstagramUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1ADA7797855B103FE5768233 /* Pods_Parstagram_ParstagramUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +67,7 @@
 		D784C30425FC972200AF7FA9 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D784C30925FC972D00AF7FA9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		D784C31B25FCA30100AF7FA9 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		D7B1024E260559500026BA8C /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 		EE68C430B363A59873A12582 /* Pods-Parstagram-ParstagramUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Parstagram-ParstagramUITests.release.xcconfig"; path = "Target Support Files/Pods-Parstagram-ParstagramUITests/Pods-Parstagram-ParstagramUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +140,7 @@
 				D784C2C225FC951000AF7FA9 /* AppDelegate.swift */,
 				D784C2C425FC951000AF7FA9 /* SceneDelegate.swift */,
 				D784C2C825FC951000AF7FA9 /* Main.storyboard */,
+				D7B1024E260559500026BA8C /* CommentCell.swift */,
 				D784C31B25FCA30100AF7FA9 /* PostCell.swift */,
 				D784C30425FC972200AF7FA9 /* LoginViewController.swift */,
 				D784C30925FC972D00AF7FA9 /* FeedViewController.swift */,
@@ -421,6 +424,7 @@
 				D784C2C525FC951000AF7FA9 /* SceneDelegate.swift in Sources */,
 				D784C31C25FCA30100AF7FA9 /* PostCell.swift in Sources */,
 				D75D3AF525FF2C0B000E0DE7 /* CameraViewController.swift in Sources */,
+				D7B1024F260559500026BA8C /* CommentCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
